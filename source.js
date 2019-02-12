@@ -2087,7 +2087,7 @@ var SVGtoPDF = function(doc, svg, x, y, options) {
       this.drawTextInDocument = function(isClip, isMask) {
         if (this.link && !isClip && !isMask) {this.addLink();}
         if (this.get('text-decoration') === 'underline') {
-          this.decorate(0.05 * this._font.size, -0.075 * this._font.size, isClip, isMask);
+          this.decorate(0.05 * this._font.size, -0.142 * this._font.size, isClip, isMask);
         }
         if (this.get('text-decoration') === 'overline') {
           this.decorate(0.05 * this._font.size, getAscent(this._font.font, this._font.size) + 0.075 * this._font.size, isClip, isMask);

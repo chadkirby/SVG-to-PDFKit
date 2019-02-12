@@ -9,5 +9,8 @@
   "main": "source.js",
   "dependencies": {
     "pdfkit": ">=0.8.1"
+  },
+  "devDependencies": {
+    "tom-jumbo-grumbo": "git+ssh://git@github.com/PatentNavigation/tom-jumbo-grumbo.git#v1.0.3"
   }
 }
