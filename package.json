@@ -7,10 +7,11 @@
   "repository": "https://github.com/alafr/SVG-to-PDFKit",
   "bugs": "https://github.com/alafr/SVG-to-PDFKit/issues",
   "main": "source.js",
-  "dependencies": {
-    "pdfkit": ">=0.8.1"
-  },
   "devDependencies": {
+    "pdfkit": ">=0.8.1",
     "tom-jumbo-grumbo": "git+ssh://git@github.com/PatentNavigation/tom-jumbo-grumbo.git#v1.0.3"
-  }
+  },
+  "files" : [
+    "source.js"
+  ]
 }
