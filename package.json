@@ -1,6 +1,6 @@
 {
   "name": "svg-to-pdfkit",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Insert SVG into a PDF document created with PDFKit",
   "author": "alafr",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "pdfkit": ">=0.8.1",
     "tom-jumbo-grumbo": "git+ssh://git@github.com/PatentNavigation/tom-jumbo-grumbo.git#v1.0.3"
   },
-  "files" : [
+  "files": [
     "source.js"
   ]
 }
