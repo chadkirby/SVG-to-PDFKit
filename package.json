@@ -13,5 +13,8 @@
   },
   "files": [
     "source.js"
-  ]
+  ],
+  "scripts": {
+    "release": "tp-release"
+  }
 }
